@@ -35,7 +35,7 @@ gateway 192.168.123.1
 #include <iostream>
 int main(int argc,char** argv)
 {
-    std::string IpLastSegment = "15";
+    std::string IpLastSegment = "14";
     int cam = 1;
     if (argc>=2)
         cam = std::atoi(argv[1]);
