@@ -36,7 +36,7 @@ gateway 192.168.123.1
 int main(int argc,char** argv)
 {
     std::string IpLastSegment = "14";
-    int cam = 1;
+    int cam = 3;
     if (argc>=2)
         cam = std::atoi(argv[1]);
     std::string udpstrPrevData = "udpsrc address=192.168.123."+ IpLastSegment + " port=";
